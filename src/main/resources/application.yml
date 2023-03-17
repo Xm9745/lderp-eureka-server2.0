@@ -1,0 +1,56 @@
+server:
+  port: 7776
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://root:lxm0987@8.130.168.9:7776/eureka/
+security:
+  user:
+    name: root
+    password: lxm0987
+
+
+
+#server:
+#  port: 7799
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://root:lxm0987@39.104.118.63:7799/eureka/
+#security:
+#  user:
+#    name: root
+#    password: lxm0987
+
+
+
+#server:
+#  port: 7777
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://root:123456@39.104.203.237:7777/eureka/
+#security:
+#  user:
+#    name: root
+#    password: 123456
+
+
+#server:
+#  port: 7776
+#eureka:
+#  client:
+#    register-with-eureka: false
+#    fetch-registry: false
+#    service-url:
+#      defaultZone: http://root:123456@127.0.0.1:7776/eureka/
+#security:
+#  user:
+#    name: root
+#    password: 123456
